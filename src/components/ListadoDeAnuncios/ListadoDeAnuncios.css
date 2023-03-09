@@ -1,0 +1,27 @@
+.ListadoDeAnuncios {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: white;
+}
+
+img {
+    margin-right: 10px;
+}
+
+li {
+    color: white;
+}
+
+span.twitter {
+    
+
+}
