@@ -1,10 +1,10 @@
 import './Buscador.css'
 import { useState } from 'react'
 import React from 'react'
-import MiBusqueda from '../../assets/search.svg' 
 
 
-const SabeMas = (sobre)=>{
+
+const SabeMas = ()=>{
         return(
             <div className='saberMas'>
                 <div className='pico'></div>
