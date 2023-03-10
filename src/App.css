@@ -86,3 +86,17 @@
 .read-the-docs {
   color: #888;
 }
+.mainInfo{
+  position: relative;
+  z-index: 1;
+}
+
+.fondo{
+  position: absolute;
+  width: 100%;
+  color: #5cb394;
+  margin: 0 0;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
