@@ -40,10 +40,10 @@
 }
 
 .info_Blocks {
-  height: 230px;
+  height: 300px;
   width: 280px;
   padding: 30px;
-  font-size: small;
+  font-size:15px;
   margin: 15px;
   display: inline-block;
   vertical-align: top;
