@@ -71,7 +71,7 @@ const InputSearch = () =>{
 
 const Buscador = () => {
     return (
-        <div>
+        <div className='buscadorOrdenador'>
             <Logo/>
             <InputSearch/>
         </div>

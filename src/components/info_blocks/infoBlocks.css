@@ -7,9 +7,10 @@
   vertical-align: top;
   align-items: center;
   text-align: center;
-  background-color: white;
+  background-color: #282828;
   border-radius: 25px;
   box-shadow: 1px 1px 4px #333;
+  color: white;
 }
 
 body {
