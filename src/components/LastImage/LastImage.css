@@ -1,8 +1,15 @@
 .LastImage {
+    height: 460px;
+    width: 1495px;
     background-color: #58B792;
-    background-image: url('https://duckduckgo.com/assets/onboarding/bathroomguy/1-monster-v2--pre-animation.svg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 761px 292px;
-    background-position: center bottom;
+    background-position: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 890px;
+    height: auto;
+    position: relative;
+    top: 119px;
 }
