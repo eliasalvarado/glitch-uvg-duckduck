@@ -1,7 +1,11 @@
 .LastImage {
-    height: 460px;
-    width: 1495px;
+    position:absolute;
+    width: 100%;
     background-color: #58B792;
+    margin: 0 0;
+    top:152%;
+    left:0;
+    z-index:-1;
     background-position: center;
 }
 
@@ -11,5 +15,4 @@ img {
     max-width: 890px;
     height: auto;
     position: relative;
-    top: 119px;
 }
