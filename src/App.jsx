@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import duckduckgoLogo from './assets/DuckDuckGo_Logo.png'
 import './App.css'
 import Buscador from './components/Buscador/Buscador'
 import './components/info_blocks/main_infoBlocks'
