@@ -6,6 +6,7 @@
 h1 {
     font-family: "Montserrat", sans-serif;
     color: white;
+    
 }
 
 p {
@@ -26,7 +27,7 @@ button {
     margin-top: 1000px;
     margin-bottom: 400px;
     height: 400px;
-    width: 1530px;
+    width: 1480px;
     background-color: #58b792;
     background-position: center;
     text-align: center;
