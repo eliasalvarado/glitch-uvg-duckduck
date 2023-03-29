@@ -5,6 +5,7 @@ import Buscador from './components/Buscador/Buscador'
 import './components/info_blocks/main_infoBlocks'
 import MainInfoBlocks from './components/info_blocks/main_infoBlocks'
 import LastImage from './components/LastImage/LastImage'
+import Onboarding from './components/onboarding/Onboarding'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,8 @@ function App() {
       <div>
       <LastImage></LastImage>
       </div>
+    <div className='App'>
+        <Onboarding></Onboarding>
     </div>
   )
 }
