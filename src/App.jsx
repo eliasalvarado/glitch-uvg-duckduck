@@ -7,12 +7,17 @@ import MainInfoBlocks from './components/info_blocks/main_infoBlocks'
 import LastImage from './components/LastImage/LastImage'
 import Onboarding from './components/onboarding/Onboarding'
 import FAQ from './components/FAQ/FAQ'
+import DropDownMenu from "./components/DropDownMenu/DropDownMenu.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+
     <div className="App">
+      <header className='App-header'>
+        <DropDownMenu />
+      </header>
       <div>
       <Buscador></Buscador>
       </div>
