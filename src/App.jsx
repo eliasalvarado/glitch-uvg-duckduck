@@ -8,6 +8,7 @@ import LastImage from './components/LastImage/LastImage'
 import Onboarding from './components/onboarding/Onboarding'
 import FAQ from './components/FAQ/FAQ'
 import DropDownMenu from "./components/DropDownMenu/DropDownMenu.jsx";
+import SocialMedia from "./components/SocialMedia/SocialMedia.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
 
     <div className="App">
       <header className='App-header'>
+          <SocialMedia />
         <DropDownMenu />
       </header>
       <div>
