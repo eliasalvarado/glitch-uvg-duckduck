@@ -1,6 +1,8 @@
 :root {
     --max-content-width: 590px;
     --default-border-radius: 4px;
+    flex: flex;
+    flex-direction: column;
 }
 
 h1 {

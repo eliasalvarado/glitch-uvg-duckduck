@@ -19,6 +19,6 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'never'],
-    'linebreak-style': 'off'
+    'max-len': ["error", { "code": 120 }]
   }
 }

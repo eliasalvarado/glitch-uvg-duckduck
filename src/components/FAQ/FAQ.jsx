@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import React from 'react'
 import './FAQ.css'
 
-
-const FAQ = () => {
-    const [count, setCount] = useState(0)
+function FAQ() {
     return (
-        <article id="faq" className='faq' typeof='FAQPage'>
-            <h2 property="name" className='faq_title'>
+        <article id="faq" className='faq'>
+            <h2 className='faq_title'>
                 Frequently Asked Questions
             </h2>
             <div className='faq_content'>

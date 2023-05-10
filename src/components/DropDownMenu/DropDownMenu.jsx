@@ -1,19 +1,19 @@
-import React, { useState } from "react";
-import "./DropDownMenu.css";
+import React, { useState } from "react"
+import "./DropDownMenu.css"
 
-const DropDownMenu = () => {
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+function DropDownMenu() {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false)
 
     const toggleDropdown = () => {
-        setIsDropdownOpen(!isDropdownOpen);
-    };
+        setIsDropdownOpen(!isDropdownOpen)
+    }
 
-    const dropdownClasses = isDropdownOpen ? "dropdown-container dropdown-open" : "dropdown-container";
+    const dropdownClasses = isDropdownOpen ? "dropdown-container dropdown-open" : "dropdown-container"
 
     return (
         <div className="dropdown-menu">
-            <button className="menu-button" onClick={toggleDropdown}>
-                <img src='src/assets/more.png' className='hamburger'/>
+            <button className="menu-button" onClick={toggleDropdown} type="button">
+                <img src='src/assets/more.png' className='hamburger' alt="hamburger"/>
             </button>
             <div className={dropdownClasses}>
                 <ul className="dropdown-list">
@@ -40,6 +40,6 @@ const DropDownMenu = () => {
                 </ul>
             </div>
         </div>
-    );
+    )
 }
-export default DropDownMenu;
+export default DropDownMenu
